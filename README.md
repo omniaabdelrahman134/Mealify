@@ -3,6 +3,8 @@
 Mealify is a fully responsive restaurant landing page built with **pure HTML and CSS**.  
 This project features **dark mode**, **animations**, and a **mobile-friendly sidebar menu**.
 
+<img width="1903" height="928" alt="image" src="https://github.com/user-attachments/assets/809fa2e8-7905-4966-ba30-6d51f4b948cd" />
+
 ---
 
 ## 🚀 Features
