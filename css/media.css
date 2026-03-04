@@ -1,0 +1,89 @@
+/* ================= Tablet (min-width: 768px) ================= */
+@media (min-width: 768px) {
+  .side {
+    display: none;
+  }
+  nav .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #hero .buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 12%;
+  }
+  #hero img {
+    width: 45%;
+    padding-top: 0;
+  }
+  #hero .hero-content {
+    width: 50%;
+  }
+
+  #chefs .card {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2%;
+  }
+
+  .grid {
+    columns: 2;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .contact-content .info {
+    width: 45%;
+  }
+  .form-contact {
+    width: 50%;
+  }
+
+  #footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #footer .f-sec1 {
+    width: 45%;
+  }
+}
+
+/* ================= Laptop/Desktop (min-width: 1024px) ================= */
+@media (min-width: 1400px) {
+  #hero {
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero-content .hero-h2 {
+    font-size: 80px;
+  }
+
+  #chefs .card {
+    width: 30%;
+    margin: 1.5%;
+  }
+
+  .grid {
+    columns: 3;
+  }
+
+  #footer .f-sec1 {
+    width: 30%;
+  }
+}
