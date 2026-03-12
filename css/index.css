@@ -638,6 +638,8 @@ textarea {
   border: 2px solid var(--color-light-grey);
   color: var(--color-default);
   width: 90%;
+
+  margin-block: 15px;
 }
 /* ---------------------------------------footer---------------------------------------------- */
 
