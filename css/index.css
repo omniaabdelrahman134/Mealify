@@ -273,13 +273,15 @@ body:has(#contact:target) .nav-menu a[href="#contact"]::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  padding-top: 20%;
+  /* justify-content: start; */
+  padding-top: 30%;
 }
 
 #hero img {
   width: 90%;
+  margin: 1%;
   padding: 3%;
+  /* align-self: center; */
   filter: drop-shadow(4px 4px 9px #000a);
 }
 
